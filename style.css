@@ -1,52 +1,100 @@
 body, html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     Margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: #1B1B1B;
 }
 
 ul {
   list-style-type: none;
-  margin: 20px 0;
+  margin: 0;
   padding: 0;
-  font-size: 1.8em;
+  font-size: 1.6em;
   overflow: hidden;
-  background-color: transparent;
+  background-color: #FC6E20;
 }
-
 li {
   float: right;
-  padding: 8px 15px;
-  color: #fff;
-  margin-right: 5px;
 }
-
-li a {
+a li {
   display: block;
-  color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-   
+  text-decoration-style: none;
+  color:#FFE7D0;
+  padding: 10px 16px;
 }
+ ul a li:hover {
+  background-color: #FFE7D0;
+  color: #FC6E20;
 
-
-ul li a :hover {
-  background-color: #fff;
 }
 
 .title{
   font-size: 6em;
+  font-weight: bold;
   text-decoration: bold;
+  color: #FC6E20;
+  letter-spacing: 9px;
   text-align: center;
   margin-top: 20%;
-  color: #fff;
-
 }
-
 .description{
   font-size: 1.7em;
+  color: #FFE7D0;
+  letter-spacing: 4px;
   text-align: center;
   margin-top: -20px;
-  color: #ffffee
 }
+
+.btn1 {
+	background:linear-gradient(to bottom, #fc6d20 5%, #d65c1a 100%);
+	background-color:#fc6d20;
+	border-radius:28px;
+	border:1px solid #ffb891;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family:Impact;
+  letter-spacing: 2px;
+	font-size:28px;
+	padding:11px 21px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #1b1b1b;
+  margin: 0% 40%;
+}
+.btn1:hover {
+	background:linear-gradient(to bottom, #d65c1a 5%, #fc6d20 100%);
+	background-color:#d65c1a;
+}
+.btn1:active {
+	position:relative;
+	top:1px;
+}
+
+.btn2{
+  background-color: #FFE7D0;
+  display:inline-block;
+  padding:11px 21px;
+  border: 1px solid #FC6E20;
+  margin:0 0.3em 0.3em 0;
+  border-radius: 28px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Impact',sans-serif;
+  font-size: 28px;
+  
+  color: #FC6E20;
+  text-align:center;
+  transition: all 0.2s;
+  }
+  .btn2:hover{
+  color: #FFE7D0;
+  background-color: #FC6E20;
+  }
+  @media all and (max-width:30em){
+   .btn2{
+  display:block;
+  margin:0.4em auto;
+   }
+  }
+        
