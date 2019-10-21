@@ -11,7 +11,7 @@ ul {
   padding: 0;
   font-size: 1.6em;
   overflow: hidden;
-  background-color: #FC6E20;
+	background-color:#fc6d20;
 }
 li {
   float: right;
@@ -36,7 +36,7 @@ a li {
   color: #FC6E20;
   letter-spacing: 9px;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 .description{
   font-size: 1.7em;
@@ -57,10 +57,11 @@ a li {
   font-family:Impact;
   letter-spacing: 2px;
 	font-size:28px;
-	padding:11px 21px;
+  padding:11px 21px;
+  float: right;
 	text-decoration:none;
   text-shadow:0px 1px 0px #1b1b1b;
-  margin: 0% 40%;
+
 }
 .btn1:hover {
 	background:linear-gradient(to bottom, #d65c1a 5%, #fc6d20 100%);
@@ -76,25 +77,30 @@ a li {
   display:inline-block;
   padding:11px 21px;
   border: 1px solid #FC6E20;
-  margin:0 0.3em 0.3em 0;
+  margin:0;
   border-radius: 28px;
   box-sizing: border-box;
+  cursor: pointer;
   text-decoration:none;
   font-family:'Impact',sans-serif;
   font-size: 28px;
-  
   color: #FC6E20;
-  text-align:center;
   transition: all 0.2s;
   }
   .btn2:hover{
   color: #FFE7D0;
   background-color: #FC6E20;
   }
-  @media all and (max-width:30em){
-   .btn2{
-  display:block;
-  margin:0.4em auto;
-   }
+
+  /* @media all and (max-width:30em){ */
+  /* } */
+    /*  .btn2{
+    display:block;
+    margin: 0.4em auto;
+     } */
+
+  .btn_group{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    column-gap: 15px;
   }
-        
