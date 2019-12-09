@@ -1,8 +1,9 @@
-body, html{
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    Margin: 0;
-    padding: 0;
-    background-color: #1B1B1B;
+body,
+html {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b1b;
 }
 
 ul {
@@ -11,96 +12,140 @@ ul {
   padding: 0;
   font-size: 1.6em;
   overflow: hidden;
-	background-color:#fc6d20;
+  background-color: #ff8341;
 }
 li {
   float: right;
 }
-a li {
+ul a li {
   display: block;
   text-align: center;
-  text-decoration-style: none;
-  color:#FFE7D0;
-  padding: 10px 16px;
+  color: #fff2e5;
+  -webkit-text-stroke: 1px #1b1b1b;
+  padding: 16px 16px;
 }
- ul a li:hover {
-  background-color: #FFE7D0;
-  color: #FC6E20;
-
+ul a li:hover {
+  background-color: #fff2e5;
+  color: #ff8341;
 }
 
-.title{
-  font-size: 6em;
+
+ul a li :active {
+  background-color: #fff2e5;
+  color: #ff8341;
+}
+
+
+.title {
+  width: fit-content;
+  margin: 15% auto auto auto;
+
+  font-size: 1.1em;
   font-weight: bold;
   text-decoration: bold;
-  color: #FC6E20;
+  color: #ff8341;
   letter-spacing: 9px;
   text-align: center;
-  margin-top: 15%;
 }
-.description{
-  font-size: 1.7em;
-  color: #FFE7D0;
+.typewriter h1 {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 6em;
+  font-weight: bold;
+  color: #ff8341;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.08em solid #ff8341; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 9px; /* Adjust as needed */
+  animation: typing 1.5s steps(50, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ff8341;
+  }
+}
+
+.description p {
+  font-size: 1.6em;
+  color: #fff2e5;
   letter-spacing: 4px;
   text-align: center;
-  margin-top: -20px;
 }
 
 .btn1 {
-	background:linear-gradient(to bottom, #fc6d20 5%, #d65c1a 100%);
-	background-color:#fc6d20;
-	border-radius:28px;
-	border:1px solid #ffb891;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-  font-family:Impact;
-  letter-spacing: 2px;
-	font-size:28px;
-  padding:11px 21px;
+  background-color: #ff8341;
+  display: inline-block;
+  padding: 11px 21px;
+  border-radius: 28px;
+  border: none;
+  margin: 0;
   float: right;
-	text-decoration:none;
-  text-shadow:0px 1px 0px #1b1b1b;
-
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Impact", sans-serif;
+  font-size: 28px;
+  color: #fff2e5;
+  transition: all 0.2s;
+  width: 140px;
 }
 .btn1:hover {
-	background:linear-gradient(to bottom, #d65c1a 5%, #fc6d20 100%);
-	background-color:#d65c1a;
+  color: #ff8341;
+  background-color: #fff2e5;
 }
 .btn1:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
-.btn2{
-  background-color: #FFE7D0;
-  display:inline-block;
-  padding:11px 21px;
-  border: 1px solid #FC6E20;
-  margin:0;
+.btn2 {
+  background-color: #fff2e5;
+  display: inline-block;
+  padding: 11px 21px;
+  border: none;
+  margin: 0;
   border-radius: 28px;
   box-sizing: border-box;
   cursor: pointer;
-  text-decoration:none;
-  font-family:'Impact',sans-serif;
+  text-decoration: none;
+  font-family: "Impact", sans-serif;
   font-size: 28px;
-  color: #FC6E20;
+  color: #ff8341;
   transition: all 0.2s;
-  }
-  .btn2:hover{
-  color: #FFE7D0;
-  background-color: #FC6E20;
-  }
+  width: 140px;
+}
+.btn2:hover {
+  color: #fff2e5;
+  background-color: #ff8341;
+}
 
-  /* @media all and (max-width:30em){ */
-  /* } */
-    /*  .btn2{
+/* @media all and (max-width:30em){ */
+/* } */
+/*  .btn2{
     display:block;
     margin: 0.4em auto;
      } */
 
-  .btn_group{
-    display: grid;
-    grid-template-columns: 50% 45%;
-    column-gap: 15px;
-  }
+.btn_group {
+  display: grid;
+  grid-template-columns: 50% 45%;
+  column-gap: 15px;
+}
