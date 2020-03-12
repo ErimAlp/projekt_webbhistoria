@@ -1,0 +1,21 @@
+Vad ska användaren testa?
+Användaren ska testa designen på sidan. 
+
+Hur ska användaren testa?
+Användaren ska navigera från en sida till en annan
+ och säga vad han/hon tycker om sidan.
+
+ Vad ska dokumenteras?
+ Det som dokumenteras ska vara det användaren säger högt
+
+ TEST: 
+
+ Användarens tankar: Sidan är snygg men tyckte inte
+ bilderna var bra för sidan. 
+ Användaren tyckte om "skriv effekten" i startsidan
+ och javascripten i de andra som lät användaren att se mer av
+  innehållet.
+
+  Lösningar:
+  Anända bättre bilder.
+  

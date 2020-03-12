@@ -1,0 +1,14 @@
+Vad gick bra?
+Jag tyckte att Wrappersen i "Historiska Händelser" sidan gick ganska bra. Efter att göra den såg sidan mycket bättre ut.
+
+Vad var svårast med den delen?
+Den här delen var inte särkilt svår. Men det "svåraste" av den här delen var javascripten jag behövde skriva eftersom att
+jag först behövde lära mig hur man använder Javascript.
+
+Vad skulle kunna gjorts bättre?
+En sak som jag skulle ha kunnat göra bättre är bilderna. Jag skulle kunna ha valt bättre bilder som både har med text 
+innehållet att göra och passar sidan färgchema.
+En annan sak jag skulle kunna göra är att flytta på rubrikerna för sidorna så att de ligger på mer passande sätt.
+
+Hur påverkade resultatet från användartestet den delen?
+Användartester påverkade inte min hemsida.

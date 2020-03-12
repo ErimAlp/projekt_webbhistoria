@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
 body,
 html {
   font-family: Impact, "Arial Narrow Bold", sans-serif;
@@ -6,40 +9,40 @@ html {
   background-color: #1b1b1b;
 }
 
-ul {
+.nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   font-size: 1.6em;
   overflow: hidden;
-  background-color: #ff8341;
+  background: rgb(255,131,65);
+background: linear-gradient(180deg, rgba(255,131,65,1) 0%, rgba(171,87,42,1) 100%);
 }
-li {
+.nav li {
   float: right;
 }
-ul a li {
+.nav ul a li {
+
   display: block;
   text-align: center;
   color: #fff2e5;
-  -webkit-text-stroke: 1px #1b1b1b;
   padding: 16px 16px;
 }
-ul a li:hover {
+.nav ul a li:hover {
+  background-color: #2e2e2e;
+  color: #fff2e5;
+}
+
+
+.nav ul a li :active {
   background-color: #fff2e5;
   color: #ff8341;
 }
 
 
-ul a li :active {
-  background-color: #fff2e5;
-  color: #ff8341;
-}
-
-
-.title {
+.mainTitle {
   width: fit-content;
   margin: 15% auto auto auto;
-
   font-size: 1.1em;
   font-weight: bold;
   text-decoration: bold;
@@ -81,6 +84,17 @@ ul a li :active {
   50% {
     border-color: #ff8341;
   }
+}
+
+.title{
+  margin: 3% auto auto 1%;
+  font-size: 3.1em;
+  font-weight: bold;
+  text-decoration: bold;
+  color: #ff8341;
+  letter-spacing: 3px;
+  text-align: left;
+
 }
 
 .description p {
@@ -137,15 +151,76 @@ ul a li :active {
   background-color: #ff8341;
 }
 
-/* @media all and (max-width:30em){ */
-/* } */
-/*  .btn2{
-    display:block;
-    margin: 0.4em auto;
-     } */
-
 .btn_group {
   display: grid;
   grid-template-columns: 50% 45%;
   column-gap: 15px;
 }
+
+.Wrapper{
+  margin: 5em auto;
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: repeat(3,auto);
+  grid-gap: 0 rem;
+  
+}
+
+img{
+  width: 1140px;
+  margin: 5rem 12rem;
+  margin-bottom: -5.1rem;
+  
+  
+}
+
+.Wrapper main{
+  background-color: #2e2e2e;
+  grid-area:2/1/2/1;
+  font-family: Anton;
+  line-height: 1.6em;
+  letter-spacing: 0.1em;
+
+}
+
+.Wrapper main p{
+  width: 75%;
+  color: #fff2e5;
+  margin: 45px 0 0 0;
+}
+
+#text_10{
+  width: 75%;
+  color: #fff2e5;
+  display: none;
+}
+#text_00{
+  width: 75%;
+  color: #fff2e5;
+  display: none;
+}
+#text_90{
+  width: 75%;
+  color: #fff2e5;
+  display: none;
+}
+#text_80{
+  width: 75%;
+  color: #fff2e5;
+  display: none;
+}
+
+.Wrapper aside{
+  grid-area: 2/2/2/2;
+  height: 250px;
+  margin: 0 0 0 20px;
+  background-color: #2e2e2e;
+}
+
+.Wrapper > * {
+  color: #ff8341;
+  padding: 70px;
+  border-radius: 0px 0px 10px 10px; 
+}
+
